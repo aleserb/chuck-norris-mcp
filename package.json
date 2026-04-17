@@ -1,0 +1,46 @@
+{
+  "name": "chuck-norris-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vendor-neutral MCP server serving random Chuck Norris facts",
+  "main": "dist/index.js",
+  "bin": {
+    "chuck-norris-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "chuck-norris",
+    "mcp",
+    "facts",
+    "api",
+    "model-context-protocol"
+  ],
+  "author": {
+    "name": "aserbin",
+    "email": "aserbin@microsoft.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aserbin/chuck-norris-mcp"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "chuck-norris",
+  "version": "1.0.0",
+  "description": "Random Chuck Norris facts via chucknorris.io API and a local dev-themed database.",
+  "author": {
+    "name": "aserbin",
+    "email": "aserbin@microsoft.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aserbin/chuck-norris-mcp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chuck-norris",
+    "fun",
+    "facts",
+    "mcp",
+    "plugin"
+  ]
+}
