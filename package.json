@@ -1,6 +1,6 @@
 {
   "name": "chuck-norris-mcp",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "type": "module",
   "description": "Vendor-neutral MCP server serving random Chuck Norris facts",
   "main": "dist/index.js",
