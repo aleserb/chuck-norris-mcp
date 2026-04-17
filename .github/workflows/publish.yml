@@ -21,4 +21,4 @@ jobs:
           always-auth: true
       - run: npm install
       - run: npm run build
-      - run: npm publish --access public --provenance
+      - run: npx npm@11 publish --access public --provenance
