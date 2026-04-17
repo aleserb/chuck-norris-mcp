@@ -119,11 +119,13 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | npx chuck-no
 
 ## Available Categories
 
-Currently implemented:
+**Local (Phase 1):**
 - **dev** — 82 programmer/developer facts (always available offline)
 
-Planned for future phases:
-- science, sport, movie, animal, food, history, money, celebrity
+**Via API (Phase 2+):**
+- animal, career, celebrity, explicit, fashion, food, history, money, movie, music, political, religion, science, sport, travel
+
+All 16 categories from api.chucknorris.io are supported. Categories other than `dev` will fetch from the API when available.
 
 ## Development
 

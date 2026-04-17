@@ -160,9 +160,10 @@ The following files already exist:
 
 ### 2. Build MCP server (`src/`)
 **categories.ts**
-- Export `CATEGORIES` array (dev, science, sport, movie, animal, food, history, money, celebrity)
+- Export `CATEGORIES` array (all 16 from api.chucknorris.io)
+  - animal, career, celebrity, dev, explicit, fashion, food, history, money, movie, music, political, religion, science, sport, travel
 - Export `Category` type
-- Note: Only `dev` category has facts in initial version; others available for future expansion
+- Note: Only `dev` category has local facts in Phase 1; others fetch from API when requested
 
 **facts.ts**
 - `LOCAL_FACTS` array with facts by category

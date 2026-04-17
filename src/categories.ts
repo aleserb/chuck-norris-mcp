@@ -1,13 +1,20 @@
 export const CATEGORIES = [
-  'dev',
-  'science',
-  'sport',
-  'movie',
   'animal',
+  'career',
+  'celebrity',
+  'dev',
+  'explicit',
+  'fashion',
   'food',
   'history',
   'money',
-  'celebrity',
+  'movie',
+  'music',
+  'political',
+  'religion',
+  'science',
+  'sport',
+  'travel',
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
